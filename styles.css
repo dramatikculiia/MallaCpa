@@ -1,0 +1,32 @@
+
+body {
+  font-family: sans-serif;
+  padding: 2em;
+  background: #f4f4f4;
+}
+h1 {
+  text-align: center;
+}
+#stats {
+  margin-top: 2em;
+  padding: 1em;
+  background: white;
+  border-radius: 8px;
+}
+.malla {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1em;
+}
+.ramo {
+  padding: 10px;
+  border-radius: 6px;
+  color: black;
+  background-color: lightgray;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.ramo.aprobado {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
